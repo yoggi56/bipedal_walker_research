@@ -1,0 +1,12 @@
+Trained agent for OpenAI BipedalWalker-v3 environment.
+Control Algorithm: PMTG (CPG + SAC)
+Solved in 696 episodes
+Average reward over 100 episodes: 304.24
+
+Solving requiremnt: to get average reward greater than 300
+
+RL Library Stable Baselines 3
+https://stable-baselines3.readthedocs.io/en/master/index.html
+
+OpenAI BipedalWalker environment
+https://www.gymlibrary.dev/environments/box2d/bipedal_walker/

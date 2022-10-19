@@ -1,0 +1,17 @@
+Episodes: 7280
+Timesteps: 1858000
+Eval reward: 300.275079752431
+Info and Hyperparameters:
+    n_timesteps: 10000000
+    seed: 2
+    noise_std: 0.1
+    batch_size: 256
+    buffer_size: 2000000
+    tau: 0.01
+    learning_starts: 10000
+    gradient_steps: 1
+    gamma: 0.99
+    ent_coef: 0.005
+    learning_rate: 0.00073
+    train_freq: 1
+    policy_kwargs: {'net_arch': [400, 300], 'activation_fn': <class 'torch.nn.modules.activation.ReLU'>}
