@@ -142,9 +142,9 @@ class BipedalWalker(gym.Env, EzPickle):
         )
 
         if vel_ctrl == True:
-            self.obs_length = OBS_LENGTH
-        else:
             self.obs_length = OBS_LENGTH + 1
+        else:
+            self.obs_length = OBS_LENGTH
 
         high = np.array([np.inf] * self.obs_length).astype(np.float32) 
         self.action_space = spaces.Box(
